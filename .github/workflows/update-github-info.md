@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -35,6 +36,7 @@ Keep the GitHub Info website useful, concise, and current for developers.
 3. Use web fetch to read:
    - https://github.blog/latest/
    - https://github.blog/changelog/
+  - https://awesome-copilot.github.com/workflows/
 4. Select only practical, relevant updates that help developers learn GitHub faster. Cite the source in each update as either the GitHub Blog or GitHub Changelog.
 5. Update `site/content/github-info.md` with concise summaries. Preserve useful existing content and avoid duplicate entries.
 6. Review the resulting file for clarity, accuracy, and valid Markdown.
